@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 from .models import User,Product,Wishlist
-#import request
+import requests
 import random
 
 # Create your views here.
